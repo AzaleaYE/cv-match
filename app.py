@@ -25,7 +25,8 @@ plt.rcParams['font.family'] = 'Segoe UI Emoji'
 #openai.api_key = ''
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+#openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 if openai.api_key is None:
     raise ValueError("⚠️ OPENAI_API_KEY is not set. Please set it before running the app.")

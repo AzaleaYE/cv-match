@@ -1,0 +1,59 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.git env/
+*.venv
+*.env
+
+# Ignore logs and local settings
+*.log
+.DS_Store
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit secrets (important if using Streamlit Cloud!)
+.streamlit/secrets.toml
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore data files (PDF, Excel, CSV, JSON, databases)
+*.csv
+*.xlsx
+*.json
+*.db
+*.pdf
+*.cfg
+
+# Ignore Docker and dependencies
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Ignore large files (compressed files, backups, archives)
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore system-specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore generated files and temporary data
+raw_files/
+output/
+candidates/
+
+# Ignore specific Python files
+test_*.py
+debug.py
+backup_*.py

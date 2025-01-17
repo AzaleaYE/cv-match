@@ -103,6 +103,10 @@ multidict==6.0.4
     #   aiohttp
     #   yarl
 opentelemetry-api==1.20.0
+openai==0.28
+pdfplumber
+openpyxl 
+python-dotenv
     # via
     #   microsoft-kiota-abstractions
     #   microsoft-kiota-authentication-azure
